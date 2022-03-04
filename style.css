@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+header {
+  border-bottom: 5px solid rgb(255, 255, 255);
+  height: 15rem;
+  
+  position: relative;
+}
+
+.again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  padding: 1rem 1rem;
+color: #000;
+background-color: #fff;
+}
+
+.main-p {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  padding: 1rem 1rem;
+  color: inherit;
+
+}
+
+.main-head {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  color: inherit;
+
+}
+
+.score-div {
+
+  position: absolute;
+  color: #000;
+  background-color: #fff;
+  border: 2px solid rgb(247, 243, 243);
+  font-size: 5rem;
+  width: 8rem;
+  height: 3.5rem;
+  left : 50%;
+  bottom: 0;
+  text-align: center;
+  transform: translate(-50% ,50%);
+  padding : 1.5rem 0;
+  /* padding-left: 6rem;
+  padding-top: 3rem; */
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  padding-top: 5rem;
+  
+}
+
+.left  {
+  padding-left: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+}
+#number{
+  height: 6rem;
+  width: 12rem;
+  border: 4px solid #fff;
+  padding-right: 1rem;
+  padding-left: 8rem;
+  font-size: 2rem;
+}
+.btn{
+  height: 4.5rem;
+  width: 7rem;
+  background-color: #fff;
+  color: black;
+  margin-left: 6rem;
+
+}
+.right{
+  margin-left: 4rem;
+}
+
+.message{
+  padding-top: 2rem;
+  margin-bottom: 8rem;
+}
+.lavel-score{
+  margin-bottom: 3rem;
+}
+
+
